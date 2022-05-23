@@ -2,8 +2,8 @@
 
 ## User Stories
 
-*- En tant qu'administrateur, je veux pouvoir me connecter afin d'accéder aux fonctionnalitées qui me sont réservées.*
-*- En tant qu'administrateur, je veux pouvoir ajouter des marchandises afin de les proposer aux potentiels clients.*
+-*En tant qu'administrateur, je veux pouvoir me connecter afin d'accéder aux fonctionnalitées qui me sont réservées.*
+-*En tant qu'administrateur, je veux pouvoir ajouter des marchandises afin de les proposer aux potentiels clients.*
 *- En tant qu'administrateur, je veux pouvoir enlever les marchandises losrque celles-ci sont épuisées afin d'adapter les stocks.*
 *- En tant qu'administrateur, je veux pouvoir me connecter afin d'accéder aux fonctionnalitées qui me sont réservées.*
 *- En tant qu'administrateur, je veux pouvoir proposer un menu de navigation afin de faciliter la navigation du client.*
