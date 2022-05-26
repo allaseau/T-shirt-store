@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php $title="Création article"; $site_description="Venez créer votre propre article qui concerne le BIO"; require "../head.php"; ?>
+<?php $title="Création article"; $site_description="Ajoutez un T-shirt qui déchire !"; require "../head.php"; ?>
 <body>
     <style>
         .ql-container.ql-snow.-error {
