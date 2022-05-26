@@ -15,14 +15,13 @@
     <?php if(isset($site_description)): ?>
         <meta property="og:description" content="<?= $site_description ?>" />
     <?php endif; ?>
-    <meta property="og:image" content="https://planetezerodechet.fr/wp-content/uploads/2020/07/manger-bio-nature-spains-1152x768.jpg" />
     <meta property="article:author" content="<?= $appName ?>" />
 
     <meta name="twitter:site" content="<?= $appName ?>" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="<?= $appName ?>" />
 
-    <meta name="keywords" content="Bio, Restauration, Produits, Article" />
+    <meta name="keywords" content="T-shirt, Vêtements, Produits, Article" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
@@ -35,8 +34,10 @@ if (isset($title)) {
     echo '';
 }
 ?>
+
 <?= isset($title) ? $title : '' ?>
+
 <?= $appName . ' - ' . $title ?>
-<?= "$appName - $title" ?> => T-shirt Store - Accueil
+<?= "$appName - $title" ?> => T-Sirt Store - Accueil
 <?= '$appName - $title' ?> => $appName - $title
  -->
