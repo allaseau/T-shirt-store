@@ -118,17 +118,19 @@ body footer .inline__lower__container {
       -ms-flex-align: end;
           align-items: flex-end;
   margin: 0;
+  padding: 30px;
 }
-body footer .inline__lower__container .info__address {
+body footer .inline__lower__container section {
+  display: contents;
+}
+body footer .inline__lower__container section .info__address {
   color: white;
 }
-body footer .inline__lower__container .info__contact {
+body footer .inline__lower__container section .info__contact {
   color: white;
 }
 body footer .section__media {
-  margin-top: 85px;
-  margin-right: 164px;
-  margin-bottom: 72px;
+  padding: 50px;
 }
 body footer .section__media ul {
   list-style: none;

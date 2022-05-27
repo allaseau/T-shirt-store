@@ -120,22 +120,25 @@ body {
             justify-content: space-between;
             align-items: flex-end;
             margin: 0;
+            padding: 30px;
 
-            .info__address {
-                color: $white;
-
-            }
-
-            .info__contact {
-                color: $white;
-
+            section{
+                display: contents;
+               
+                .info__address {
+                    color: $white;
+    
+                }
+    
+                .info__contact {
+                    color: $white;
+    
+                }
             }
         }
 
         .section__media {
-            margin-top: 85px;
-            margin-right: 164px;
-            margin-bottom: 72px;
+            padding: 50px;
 
             ul {
                 list-style: none;
