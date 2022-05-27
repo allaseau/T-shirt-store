@@ -34,7 +34,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="about1">
             <img src="" alt="">
             <h2>Qui sommes-nous ?</h2>
             <p>T-Shirt Store est un magasin qui vend des T-Shirts au design unique (proposé par des artistes
@@ -43,7 +43,7 @@
                 qu'on ne vous copiera pas.
             </p>
         </section>
-        <section>
+        <section class="about2">
             <img src="" alt="">
             <h2>Comment fonctionnons-nous actuellement ?</h2>
             <p>Nous imprimons des t-shirts pour un stock limité de 50 pièces. Il n'est pas rare que nous relancions une
