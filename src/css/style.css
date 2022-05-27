@@ -89,6 +89,7 @@ body footer .lower__container .footer__nav div nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 10px;
 }
 body footer .lower__container .footer__nav div nav ul li a {
   color: white;
