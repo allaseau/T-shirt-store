@@ -19,17 +19,17 @@
             <div id="wrap">
                 <ul class="navbar">
                     <li>
-                        <a href="./index.html">Accueil</a>
+                        <a href="./index.php">Accueil</a>
                     </li>
                     <li>
-                        <a href="./index.html">Catégories</a>
+                        <a href="./index.php">Catégories</a>
                         <ul>
-                            <li><a href="./catgorie_geek.html">Geek</a></li>
-                            <li><a href="./categorie_fun.html">Fun</a></li>
-                            <li><a href="./categorie_cine.html">Cinéma</a></li>
+                            <li><a href="./catgorie_geek.php">Geek</a></li>
+                            <li><a href="./categorie_fun.php">Fun</a></li>
+                            <li><a href="./categorie_cine.php">Cinéma</a></li>
                         </ul>
                     <li>
-                        <a href="./aboutus.html">About Us</a>
+                        <a href="./aboutus.php">About Us</a>
                     </li>
         </nav>
     </header>
@@ -41,14 +41,14 @@
             <div class="lower__container">
                 <section class="footer__nav">
                     <div>
-                        <a href="index.html">
+                        <a href="index.php">
                             <img class="logo__foot" src="../src/img/logo1.png" alt="Logo Store" />
                         </a>
                         <nav>
                             <ul>
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="catgories.html">Catégories</a></li>
-                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="index.php">Accueil</a></li>
+                                <li><a href="catgories.php">Catégories</a></li>
+                                <li><a href="aboutus.php">About Us</a></li>
                             </ul>
                         </nav>
                     </div>
