@@ -1,0 +1,17 @@
+@import "./variables";
+
+.section__shirt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .shirt__div {
+        width: 30%;
+        padding: 30px;
+    }
+
+    .shirt__div:hover {
+        color: $white;
+        cursor: pointer;
+    }
+}

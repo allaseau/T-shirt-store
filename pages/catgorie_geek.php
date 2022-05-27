@@ -33,7 +33,38 @@
                     </li>
     </header>
     <main>
-
+        <section class="section__shirt">
+        <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="shirt__div">
+                <img src="" alt="" />
+                <h2></h2>
+                <p></p>
+            </div>
+        </section>
     </main>
     <footer>
         <footer>

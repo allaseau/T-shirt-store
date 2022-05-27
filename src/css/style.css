@@ -146,4 +146,23 @@ body footer .section__media ul li i {
 body footer .section__media ul li i:hover {
   color: #bf2746;
   cursor: pointer;
+}
+
+.section__shirt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section__shirt .shirt__div {
+  width: 30%;
+  padding: 30px;
+}
+.section__shirt .shirt__div:hover {
+  color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
