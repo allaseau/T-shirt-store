@@ -148,6 +148,18 @@ body footer .section__media ul li i:hover {
   cursor: pointer;
 }
 
+.about1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .section__shirt {
   display: -webkit-box;
   display: -ms-flexbox;
