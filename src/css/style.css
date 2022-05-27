@@ -1,1 +1,111 @@
-@import url("./_about.scss");/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+body header .logo {
+  height: 100px;
+  width: 100px;
+}
+body header nav {
+  width: 100%;
+}
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0;
+}
+body header nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+body footer .lower__container {
+  background-color: black;
+}
+body footer .lower__container .footer__nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .lower__container .footer__nav div nav {
+  width: 50%;
+}
+body footer .lower__container .footer__nav div nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .lower__container .footer__nav div nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+body footer .lower__container .footer__nav div nav ul li a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+body footer .lower__container .footer__nav div .logo {
+  height: 100px;
+  width: 100px;
+}
+body footer .inline__lower__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0;
+}
+body footer .inline__lower__container .info__address {
+  color: white;
+}
+body footer .inline__lower__container .info__contact {
+  color: white;
+}
+body footer .section__media {
+  margin-top: 85px;
+  margin-right: 164px;
+  margin-bottom: 72px;
+}
+body footer .section__media ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+body footer .section__media ul li i {
+  color: white;
+  font-size: 24px;
+}
+body footer .section__media ul li i:hover {
+  color: red;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

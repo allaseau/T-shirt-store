@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    header {
+        display: flex;
+        width: 100%;
+
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        nav {
+            width: 100%;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                height: 100%;
+                align-items: center;
+                text-align: center;
+                margin: 0;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    footer {
+        .lower__container {
+            background-color: black;
+
+            .footer__nav {
+                div {
+                    display: flex;
+                    justify-content: space-between;
+
+                    nav {
+                        width: 50%;
+
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-between;
+
+                            li {
+                                a {
+                                    color: white;
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                }
+
+                                a:hover {
+                                    text-decoration-line: underline;
+                                    text-decoration-color: red;
+                                }
+                            }
+                        }
+
+                    }
+
+
+
+                    .logo {
+                        height: 100px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .inline__lower__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin: 0;
+
+            .info__address {
+                color: white;
+
+            }
+
+            .info__contact {
+                color: white;
+
+            }
+        }
+
+        .section__media {
+            margin-top: 85px;
+            margin-right: 164px;
+            margin-bottom: 72px;
+
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 16px;
+
+                li {
+                    i {
+                        color: white;
+                        font-size: 24px;
+                    }
+
+                    i:hover {
+                        color: red;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
