@@ -1,8 +1,10 @@
-<?php 
-$id=mysqli_connect("localhost","root","","t-shirt store") or
-die("Erreur Connexion");
+<?php
+
+
+
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +12,7 @@ die("Erreur Connexion");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.min.css">
+    <link rel="stylesheet" href="./static/css/style.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>T-shirt Store</title>
 </head>
@@ -18,7 +20,7 @@ die("Erreur Connexion");
 <body>
     <header>
         <a href="index.php">
-            <img class="logo" src="../static/img/logo1.png" alt="Logo Store" />
+            <img class="logo" src="./static/img/logo1.png" alt="Logo Store" />
         </a>
         <nav>
             <div id="wrap">
@@ -39,29 +41,25 @@ die("Erreur Connexion");
         </nav>
     </header>
     <main>
-    <section class="section__shirt">
-        <div class="shirt__div">
-                <img src="" alt="" />
-                <h2></h2>
-                <p></p>
-            </div>
-            <div class="shirt__div">
-                <img src="" alt="" />
-                <h2></h2>
-                <p></p>
-            </div>
-            <div class="shirt__div">
-                <img src="" alt="" />
-                <h2></h2>
-                <p></p>
-            </div>
+        <form method="POST">
+            <label for="name">Nom</label>
+            <input type="text" name="Nom"><br />
+            <label for="creator">Créateur</label>
+            <input type="text" name="creator">
+            <label for="categorie">Catégorie</label>
+            <input type="text" name="categorie">
+            <label for="prix">Prix</label>
+            <input type="text" name="prix">
+            <input type="file" name="img">
+            <button type="submit">Mettre en vente</button>
+        </form>
     </main>
     <footer>
         <div class="lower__container">
             <section class="footer__nav">
                 <div>
                     <a href="index.php">
-                        <img class="logo__foot" src="../static/img/logo1.png" alt="Logo Store" />
+                        <img class="logo__foot" src="./static/img/logo1.png" alt="Logo Store" />
                     </a>
                     <nav>
                         <ul>
