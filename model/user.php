@@ -1,6 +1,6 @@
 <?php 
 
-require("./config/db.php");
+require($_SERVER['DOCUMENT_ROOT'] . '/tshirt-store/config/db.php');
 
 function get_user_by_email($email) {
     $db = $GLOBALS["mysqli"];

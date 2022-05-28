@@ -1,4 +1,4 @@
 <?php 
 
 session_start();
-require_once('./utils/utils.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/tshirt-store/utils/utils.php');

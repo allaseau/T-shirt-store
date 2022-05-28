@@ -1,45 +1,21 @@
 <?php
 
+require_once("../utils/init.php");
+require_once("../model/categorie.php");
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    var_dump($_POST);
+}
 
+$categories = get_categories();
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/css/style.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>T-shirt Store</title>
-</head>
+<?php require_once('../components/head.php'); ?>
 
 <body>
-    <header>
-        <a href="index.php">
-            <img class="logo" src="./static/img/logo1.png" alt="Logo Store" />
-        </a>
-        <nav>
-            <div id="wrap">
-                <ul class="navbar">
-                    <li>
-                        <a href="./index.php">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="./index.php">Catégories</a>
-                        <ul>
-                            <li><a href="./catgorie_geek.php">Geek</a></li>
-                            <li><a href="./categorie_fun.php">Fun</a></li>
-                            <li><a href="./categorie_cine.php">Cinéma</a></li>
-                        </ul>
-                    <li>
-                        <a href="./aboutus.php">About Us</a>
-                    </li>
-        </nav>
-    </header>
+    <?php require_once('../components/header.php'); ?>
+
     <main>
         <form method="POST">
             <label for="name">Nom</label>
@@ -47,58 +23,19 @@
             <label for="creator">Créateur</label>
             <input type="text" name="creator">
             <label for="categorie">Catégorie</label>
-            <input type="text" name="categorie">
+            <select id="categorie" name="categorie">
+                <?php foreach($categories as $c) : ?>
+                    <option value="<?= $c['id'] ?>"><?= $c['nom'] ?></option>
+                <?php endforeach ?>
+            </select>
             <label for="prix">Prix</label>
             <input type="text" name="prix">
             <input type="file" name="img">
             <button type="submit">Mettre en vente</button>
         </form>
     </main>
-    <footer>
-        <div class="lower__container">
-            <section class="footer__nav">
-                <div>
-                    <a href="index.php">
-                        <img class="logo__foot" src="./static/img/logo1.png" alt="Logo Store" />
-                    </a>
-                    <nav>
-                        <ul>
-                            <li><a href="index.php">Accueil</a></li>
-                            <li><a href="catgories.php">Catégories</a></li>
-                            <li><a href="aboutus.php">About Us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-            <div class="inline__lower__container">
-                <section>
-                    <div class="info__address">
-                        <h3>T-shirt Store Central Office</h3>
-                        <p>
-                            386 Wellington Street <br />
-                            1000 Brussels - Belgium
-                        </p>
-                    </div>
-                    <div class="info__contact">
-                        <h3>Contact Us (Central Office)</h3>
-                        <p>
-                            P : +1 234-567-89 <br />
-                            M : contact@tstore.com
-                        </p>
-                    </div>
-                </section>
-                <section class="section__media">
-                    <ul>
-                        <li><i class="fa-brands fa-facebook-square"></i></li>
-                        <li><i class="fa-brands fa-youtube-square"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-pinterest"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-    </footer>
+
+    <?php require_once('../components/footer.php'); ?>
 </body>
 
 </html>
