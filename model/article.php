@@ -35,6 +35,7 @@ function get_article_by_id($id) {
             "image" => $article["Img"],
             "prix" => $article["Prix"],
             "stock" => $article["Stock"],
+            "descritpion" =>  utf8_encode($article["Description"]),
         ];
     }
     $stmt->close();

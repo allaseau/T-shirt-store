@@ -19,6 +19,7 @@ $article = get_article_by_id($_GET['id']);
                     <h5 class="card-title"><?= $article['nom'] ?></h5>
                     <p class="card-text"><?= $article['createur'] ?></p>
                     <p class="card-text"><?= $article['prix'] ?>€</p>
+                    <p class="card-text"><?= $article['description'] ?></p>
                 </div>
             </article>
         </a>
