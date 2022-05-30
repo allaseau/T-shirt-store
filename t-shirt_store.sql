@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS `categorie` (
 
 INSERT INTO `categorie` (`ID`, `Nom`) VALUES
 (1, 'Geek'),
-(2, 'Cinéma'),
+(2, 'Cinema'),
 (3, 'Fun');
 
 -- --------------------------------------------------------
