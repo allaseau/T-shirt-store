@@ -19,4 +19,4 @@
 
 ## Pencil
 
-(static/img/mockup.png)
+<img src="static/img/mockup.png" alt="image du mockup" width="450" height="500">
