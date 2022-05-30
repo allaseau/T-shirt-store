@@ -17,4 +17,6 @@
 *- En tant que client, je veux pouvoir visualiser mon panier afin de vérifier le prix de mes achats.*<br/>
 *- En tant que client, je veux pouvoir choisir la taille de mon article afin qu'il me convienne.*<br/>
 
-## Pencil
+## Page Github
+
+Watch it on https://allaseau.github.io/T-shirt-store/ !
