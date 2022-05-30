@@ -19,8 +19,8 @@ $categories = get_categories();
                     <li>
                         <a href="/tshirt-store/index.php">Catégories</a>
                         <ul> 
-                        <?php foreach($categories as $c) : ?>
-                            <li><a href="/tshirt-store/categorie.php?id=<?= $c['id'] ?>"><?= $c['nom'] ?></a></li>
+                        <?php foreach($categories as $c) :?>
+                            <li><a href="/tshirt-store/categorie.php?id=<?= $c['id']; ?>"><?= $c['nom']; ?></a></li>
                         <?php endforeach ?>
                         </ul>
                     <li>

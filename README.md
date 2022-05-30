@@ -18,5 +18,3 @@
 *- En tant que client, je veux pouvoir choisir la taille de mon article afin qu'il me convienne.*<br/>
 
 ## Pencil
-
-<img src="/static/img/mockup.png" alt="image du mockup" width="450" height="500">

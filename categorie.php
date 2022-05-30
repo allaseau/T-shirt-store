@@ -1,6 +1,6 @@
 <?php
 require_once("./utils/init.php");
-var_dump($_GET['id']);
+
 ?>
 
 <?php require_once('./components/head.php'); ?>
