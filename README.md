@@ -19,4 +19,4 @@
 
 ## Pencil
 
-<img src="/T-shirt-store/static/img/mockup.png" alt="image du mockup" width="450" height="500">
+<img src="/static/img/mockup.png" alt="image du mockup" width="450" height="500">
