@@ -18,3 +18,5 @@
 *- En tant que client, je veux pouvoir choisir la taille de mon article afin qu'il me convienne.*<br/>
 
 ## Pencil
+
+(static/img/mockup.png)
