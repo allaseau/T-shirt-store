@@ -35,8 +35,8 @@ body {
                     background-color: $grey;
                     border-bottom: 1px solid $border;
                     z-index: 1;
-
-                    a {
+                    
+                    a{
                         height: 50px;
                         box-sizing: border-box;
                     }
@@ -46,27 +46,25 @@ body {
                         height: auto;
                         margin: 0;
                         padding: 0;
+                    }
 
-                        li {
-                            a {
-                                height: 50px;
-                                box-sizing: border-box;
-                                padding: 18px 0;
-                                border-left: 1px solid $border;
-                                text-decoration: none;
-                                color: $white;
-                                display: block;
-                            }
-                        }
+                    a {
+                        height: 50px;
+                        box-sizing: border-box;
+                        padding: 18px 0;
+                        border-left: 1px solid $border;
+                        text-decoration: none;
+                        color: $white;
+                        display: block;
+                    }
+                }
 
-                        li:hover {
-                            background-color: $red;
+                li:hover {
+                    background-color: $red;
 
-                            ul {
-                                display: block;
+                    ul {
+                        display: block;
 
-                            }
-                        }
                     }
                 }
             }
@@ -124,17 +122,17 @@ body {
             margin: 0;
             padding: 30px;
 
-            section {
+            section{
                 display: contents;
-
+               
                 .info__address {
                     color: $white;
-
+    
                 }
-
+    
                 .info__contact {
                     color: $white;
-
+    
                 }
             }
         }

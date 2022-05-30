@@ -1,11 +1,12 @@
 <?php 
+global $root_path;
 
-require($_SERVER['DOCUMENT_ROOT'] . '/tshirt-store/config/db.php');
+require($root_path . '/config/db.php');
 
 function get_user_by_email($email) {
-    $db = $GLOBALS["mysqli"];
+    global $mysqli;
     
-    $stmt = $db->prepare("SELECT * FROM User WHERE Adresse_mail = ?");
+    $stmt = $mysqli->prepare("SELECT * FROM User WHERE Adresse_mail = ?");
     $stmt->bind_param("s", $email);
 
     $stmt->execute();
